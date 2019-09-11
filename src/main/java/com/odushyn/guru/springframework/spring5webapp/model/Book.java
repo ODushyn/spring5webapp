@@ -14,7 +14,7 @@ public class Book {
     private String title;
     private String isbn;
 
-    @OneToOne(fetch = FetchType.LAZY)
+    @OneToOne
     private Publisher publisher;
 
     @ManyToMany
